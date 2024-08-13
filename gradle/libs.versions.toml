@@ -160,6 +160,8 @@ gradletest-android-application-compose = { id = "gradletest.android.application.
 gradletest-android-library = { id = "gradletest.android.library", version = "unspecified" }
 gradletest-android-library-compose = { id = "gradletest.android.library.compose", version = "unspecified" }
 gradletest-android-feature-ui = { id = "gradletest.android.feature.ui", version = "unspecified" }
+gradletest-android-room = { id = "gradletest.android.room", version = "unspecified" }
+gradletest-jvm-library = {id = "gradletest.jvm.library", version = "unspecified" }
 
 [bundles]
 compose = [

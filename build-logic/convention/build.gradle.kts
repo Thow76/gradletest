@@ -35,5 +35,13 @@ gradlePlugin{
             id = "gradletest.android.feature.ui"
             implementationClass = "AndroidFeatureUiConventionPlugin"
         }
+        register("androidRoom") {
+            id = "gradletest.android.room"
+            implementationClass = "AndroidRoomConventionPlugin"
+        }
+        register("jvmLibrary") {
+            id = "gradletest.jvm.library"
+            implementationClass = "JVMLibraryConventionPlugin"
+        }
     }
     }
