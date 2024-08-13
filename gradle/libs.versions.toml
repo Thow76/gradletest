@@ -159,3 +159,21 @@ gradletest-android-application = { id = "gradletest.android.application", versio
 gradletest-android-application-compose = { id = "gradletest.android.application.compose", version = "unspecified" }
 gradletest-android-library = { id = "gradletest.android.library", version = "unspecified" }
 gradletest-android-library-compose = { id = "gradletest.android.library.compose", version = "unspecified" }
+gradletest-android-feature-ui = { id = "gradletest.android.feature.ui", version = "unspecified" }
+
+[bundles]
+compose = [
+    "androidx-activity-compose",
+    "androidx-lifecycle-runtime-compose",
+    "androidx-lifecycle-viewmodel-compose",
+    "androidx-compose-material3",
+    "androidx-compose-ui",
+    "androidx-compose-ui-graphics",
+    "androidx-compose-ui-tooling-preview",
+]
+compose-debug = [
+    "androidx-compose-ui-tooling",
+    "androidx-compose-ui-test-manifest",
+]
+koin = ["koin-core", "koin-android", "koin-android-workmanager"]
+koin-compose = ["koin-core", "koin-android", "koin-android-workmanager", "koin-androidx-compose"]
