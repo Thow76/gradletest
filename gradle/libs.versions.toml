@@ -157,3 +157,4 @@ mapsplatform-secrets-plugin = { id = "com.google.android.libraries.mapsplatform.
 
 gradletest-android-application = { id = "gradletest.android.application", version = "unspecified" }
 gradletest-android-application-compose = { id = "gradletest.android.application.compose", version = "unspecified" }
+gradletest-android-library = { id = "gradletest.android.library", version = "unspecified" }
