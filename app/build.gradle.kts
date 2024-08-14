@@ -4,6 +4,7 @@ plugins {
 //    alias(libs.plugins.jetbrains.kotlin.android)
     alias(libs.plugins.mapsplatform.secrets.plugin)
     alias(libs.plugins.gradletest.android.application.compose)
+    alias(libs.plugins.gradletest.jvm.ktor)
 
 }
 

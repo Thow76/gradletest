@@ -43,5 +43,9 @@ gradlePlugin{
             id = "gradletest.jvm.library"
             implementationClass = "JVMLibraryConventionPlugin"
         }
+        register("jvmKtor") {
+            id = "gradletest.jvm.ktor"
+            implementationClass = "JvmKtorConventionPlugin"
+        }
     }
     }

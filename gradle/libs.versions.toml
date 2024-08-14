@@ -162,6 +162,7 @@ gradletest-android-library-compose = { id = "gradletest.android.library.compose"
 gradletest-android-feature-ui = { id = "gradletest.android.feature.ui", version = "unspecified" }
 gradletest-android-room = { id = "gradletest.android.room", version = "unspecified" }
 gradletest-jvm-library = {id = "gradletest.jvm.library", version = "unspecified" }
+gradletest-jvm-ktor = {id = "gradletest.jvm.ktor", version = "unspecified" }
 
 [bundles]
 compose = [
@@ -179,3 +180,12 @@ compose-debug = [
 ]
 koin = ["koin-core", "koin-android", "koin-android-workmanager"]
 koin-compose = ["koin-core", "koin-android", "koin-android-workmanager", "koin-androidx-compose"]
+
+ktor = [
+    "ktor-client-auth",
+    "ktor-client-cio",
+    "ktor-client-content-negotiation",
+    "ktor-client-core",
+    "ktor-client-logging",
+    "ktor-serialization-kotlinx-json"
+]

@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.gradletest.jvm.library)
+
 }
 
 dependencies {
