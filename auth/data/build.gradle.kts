@@ -1,12 +1,11 @@
 plugins {
-    alias(libs.plugins.android.library)
-    alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.gradletest.android.library)
     alias(libs.plugins.gradletest.jvm.ktor)
 }
 
 android {
     namespace = "com.example.auth.data"
-//    compileSdk = 34
+ //   compileSdk = 34
 //
 //    defaultConfig {
 //        minSdk = 26
