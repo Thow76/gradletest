@@ -8,7 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import com.example.auth.presentation.intro.IntroScreen
+import androidx.navigation.compose.rememberNavController
 import com.example.core.designsystem.RuniqueTheme
 
 
@@ -21,9 +21,8 @@ class MainActivity : ComponentActivity() {
                 Surface (modifier = Modifier.fillMaxSize(),
                 color = MaterialTheme.colorScheme.background)
                 {
-                   IntroScreen {
-
-                   }
+                    val navController = rememberNavController()
+                    NavigationRoot(navController = navController)
                 }
 
 

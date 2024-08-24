@@ -33,7 +33,7 @@ android {
 }
 
 dependencies {
-
+    //implementation("androidx.compose.foundation:foundation:1.6.8")
     implementation(libs.androidx.core.ktx)
 //    implementation(libs.androidx.appcompat)
 //    implementation(libs.material)
@@ -41,7 +41,6 @@ dependencies {
 //    androidTestImplementation(libs.androidx.junit)
 //    androidTestImplementation(libs.androidx.espresso.core)
 
-    implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
